@@ -1,10 +1,10 @@
-package br.com.ntendencia.springLocalstack;
+package br.com.ntendencia.springApi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringLocalstackApplicationTests {
+class SpringApiApplicationTests {
 
 	@Test
 	void contextLoads() {

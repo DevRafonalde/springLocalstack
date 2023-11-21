@@ -1,0 +1,33 @@
+amazonProperties:
+  accessKey: test
+  secretKey: test
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+  cloud:
+    aws:
+      account: '000000000000'
+      stack:
+        auto: false
+      region:
+        static: us-east-1
+      credentials:
+        access-key: 12345
+        secret-key: 12345
+      endpoint: http://localhost:4566
+    sqs:
+      contratacao: DEV_CONTRATACAO
+      bemVindo: DEV_CONTRATACAO_CEP
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+
+consulta:
+  viacep:
+    url: https://viacep.com.br/ws
